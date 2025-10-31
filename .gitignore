@@ -1,8 +1,18 @@
 lisa terminal logs/
+# numpy files, mostly precalculated from kaldo
+*.npy
+
+# kaldo conductivity data
+*conductivity_*_*.dat
+*_*_*/
+
+#
+*.xyz
+*.npz
 
 # generic log files, usually created by our optimizers.
 *.log
-
+*/.jupyter/
 
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
